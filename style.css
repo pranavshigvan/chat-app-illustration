@@ -205,16 +205,18 @@ body {
     padding-top: 40px;
 }
 .div2 {
-    display: grid;
-    place-items: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 .div2 div {
-    width: 50%;
+    width: 60%;
 }
 h1 {
     font-weight: 900;
     margin-bottom: 15px;
     color: hsl(271, 36%, 24%);
+    font-size: 35px;
 }
 .div2 p{
     color: hsl(270, 7%, 64%);
@@ -234,6 +236,7 @@ h1 {
     }
 
     .div2 {
+        justify-content: center;
         text-align: center;
     }
     .div2 div {
